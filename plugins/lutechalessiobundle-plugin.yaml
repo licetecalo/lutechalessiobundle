@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "lutechalessiobundle-plugin"
+spec:
+  image: licetecalo/lutechalessiobundle:0.0.1-SNAPSHOT
+  replicas: 1
+  dbms: postgresql
+  parameters: {}
+  ingressPath: "/lutechalessiobundle"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: lutechalessiobundle-admin
+    code: lutechalessiobundle-admin
+  - name: conference-alessio-bundle-admin
+    code: "conference-alessio-bundle-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

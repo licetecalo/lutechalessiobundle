@@ -1,0 +1,6 @@
+code: conference-alessio-bundle-details-widget
+titles:
+  en: Conference Alessio Bundle Details Widget
+  it: Conference Alessio Bundle Details Widget
+group: free
+customUiPath: conference-alessio-bundle-details-widget.ftl

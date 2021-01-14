@@ -1,0 +1,13 @@
+code: lutechalessiobundle-bundle
+description: This is the lutechalessiobundle bundle
+
+components:
+  plugins:
+    - plugins/lutechalessiobundle-plugin.yaml
+
+  widgets:
+    - ui/widgets/conference-alessio-bundle/tableWidget/conference-alessio-bundle-table-widget-descriptor.yaml
+    - ui/widgets/conference-alessio-bundle/detailsWidget/conference-alessio-bundle-details-widget-descriptor.yaml
+    - ui/widgets/conference-alessio-bundle/formWidget/conference-alessio-bundle-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
